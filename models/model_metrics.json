@@ -1,0 +1,64 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "SAFE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 150.0
+    },
+    "MALICIOUS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 150.0
+    },
+    "PHISHING": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 150.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 450.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 450.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      150,
+      0,
+      0
+    ],
+    [
+      0,
+      150,
+      0
+    ],
+    [
+      0,
+      0,
+      150
+    ]
+  ],
+  "class_labels": {
+    "0": "SAFE",
+    "1": "MALICIOUS",
+    "2": "PHISHING"
+  },
+  "total_samples": 2250,
+  "train_samples": 1800,
+  "test_samples": 450,
+  "tfidf_features": 6000,
+  "lexical_features": 4,
+  "total_fused_features": 6004
+}
